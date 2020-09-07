@@ -2,10 +2,10 @@
 Contributors: wpoperations
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Tested up to: 5.4.2
+Tested up to: 5.5.1
 Tags: importer, demo importer, wpoperation
 Author URI:  https://wpoperation.com
-Stable tag: 1.1.5
+Stable tag: 1.1.6
 
 == Description ==
 This is the demo importer plugin for WPOperation themes.
@@ -30,6 +30,9 @@ This plugin will add feature to import demos to the themes by WPOperation
 
 
 == Changelog ==
+= 1.1.6 = 
+* Fixed customizer settings import issue
+
 = 1.1.5 = 
 * Fixed content import issue
 

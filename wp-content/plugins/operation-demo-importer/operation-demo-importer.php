@@ -9,7 +9,7 @@
  *
  * Plugin Name: Operation Demo Importer
  * Description: Demo Importer For WPoperation Themes
- * Version:     1.1.5
+ * Version:     1.1.6
  * Author:      WPoperation
  * Author URI:  https://wpoperation.com
  * Text Domain: wpop-demo-importer
@@ -17,7 +17,7 @@
  * License:     GPL-2.0+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  * Requires at least:	4.5.0
- * Tested up to:		5.4.2
+ * Tested up to:		5.5.1
  */
 
 // Exit if accessed directly
@@ -89,7 +89,7 @@ final class WOPDI {
         $this->token 			= 'operation-demo-importer';
 		$this->plugin_url 		= plugin_dir_url( __FILE__ );
 		$this->plugin_path 		= plugin_dir_path( __FILE__ );
-		$this->version 			= '1.1.5';
+		$this->version 			= '1.1.6';
 
 		define( 'WOPDI_URL', $this->plugin_url );
 		define( 'WOPDI_PATH', $this->plugin_path );

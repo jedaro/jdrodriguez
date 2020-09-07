@@ -147,6 +147,8 @@ if ( ! class_exists( 'WPOP_Demos' ) ) {
 			// Return
 			if(class_exists('Arrival_Companion') && get_stylesheet()=='arrival'){
 				$theme = 'arrival-pro';
+			}else if(class_exists('WPparallax_Premium_Addons') && get_stylesheet()=='wpparallax'){
+				$theme = 'wpparallax-pro';
 			}else{
 				$theme = get_stylesheet();
 			}
